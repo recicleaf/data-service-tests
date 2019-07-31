@@ -5,7 +5,7 @@ includes:
 
 stages:
   - &create_material_901
-    name: Create material material
+    name: Create material [ 901 ]
     request:
       url: "{service.base_url}/materials"
       method: POST
@@ -21,7 +21,7 @@ stages:
       status_code: 201
 
   - &get_material_901
-    name: Get created material
+    name: Get material [ 901 ]
     request:
       url: "{service.base_url}/materials/901"
       method: GET
@@ -31,7 +31,7 @@ stages:
         id: 901
 
   - &delete_material_901
-    name: Delete created material
+    name: Delete material [ 901 ]
     request:
       url: "{service.base_url}/materials/901"
       method: DELETE
@@ -48,7 +48,7 @@ includes:
 stages:
   - *create_material_901
 
-  - name: Create material material (again)
+  - name: Create material [ 901 ] (again)
     request:
       url: "{service.base_url}/materials"
       method: POST
@@ -73,7 +73,8 @@ includes:
   - !include ../global/common.yaml
 
 stages:
-  - name: Create material materials
+  - &create_materials_901_902
+    name: Create materials [ 901, 902 ]
     request:
       url: "{service.base_url}/materials/bulk"
       method: POST
@@ -95,8 +96,7 @@ stages:
 
   - *get_material_901
 
-  - &delete_material_902
-    name: Get created material 2
+  - name: Get material [ 902 ]
     request:
       url: "{service.base_url}/materials/902"
       method: GET
@@ -107,51 +107,34 @@ stages:
 
   - *delete_material_901
 
-  - name: Delete created material 2
+  - &delete_material_902
+    name: Delete material [ 902 ]
     request:
       url: "{service.base_url}/materials/902"
       method: DELETE
     response:
       status_code: 200
 
----
-
-test_name: List all
-
-includes:
-  - !include ../global/common.yaml
-
-strict: False
-stages:
-  - name: Create material materials
-    request:
-      url: "{service.base_url}/materials/bulk"
-      method: POST
-      headers:
-        content-type: application/json
-      json:
-        - id: 901
-          name: "Test_901"
-          type: "TEST"
-          abbreviations: [ "AT11", "AT12" ]
-          images: [ "testUrl9011", "testUrl9012" ]
-        - id: 902
-          name: "Test_902"
-          type: "TEST"
-          abbreviations: [ "AT21", "AT22" ]
-          images: [ "testUrl9021", "testUrl9022" ]
-    response:
-      status_code: 201
-
-  - name: Get created material 2
-    request:
-      url: "{service.base_url}/materials"
-      method: GET
-    response:
-      status_code: 200
-      body:
-        - id: 901
-        - id: 902
-
-  - *delete_material_901
-  - *delete_material_902
+#---
+#
+#test_name: List all
+#
+#includes:
+#  - !include ../global/common.yaml
+#
+#strict: False
+#stages:
+#  - *create_materials_901_902
+#
+#  - name: Get created materials [ 901, 902 ]
+#    request:
+#      url: "{service.base_url}/materials"
+#      method: GET
+#    response:
+#      status_code: 200
+#      body:
+#        - id: 901
+#        - id: 902
+#
+#  - *delete_material_901
+#  - *delete_material_902

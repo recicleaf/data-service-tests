@@ -1,0 +1,16 @@
+#---
+#test_name: Load product data
+#
+#includes:
+#  - !include ../global/common.yaml
+#
+#stages:
+#  - name: Create product materials
+#    request:
+#      url: "{service.base_url}/product/bulk"
+#      method: POST
+#      headers:
+#        content-type: application/json
+#      json: !include ../data/products.json
+#    response:
+#      status_code: 201

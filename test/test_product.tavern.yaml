@@ -1,0 +1,144 @@
+test_name: Single create
+
+includes:
+  - !include ../global/common.yaml
+
+stages:
+  - &create_product_901
+    name: Create product [ 901 ]
+    request:
+      url: "{service.base_url}/products"
+      method: POST
+      headers:
+        content-type: application/json
+      json:
+        id: -901
+        barcode: "0000000901"
+        brand: "Test brand"
+        name: "Test name"
+        type: "Test type"
+        images: "http://img"
+    response:
+      status_code: 201
+
+  - &get_product_901
+    name: Get product [ 901 ]
+    request:
+      url: "{service.base_url}/products/-901"
+      method: GET
+    response:
+      status_code: 200
+      body:
+        id: -901
+
+  - &delete_product_901
+    name: Delete product [ 901 ]
+    request:
+      url: "{service.base_url}/products/-901"
+      method: DELETE
+    response:
+      status_code: 200
+
+---
+
+test_name: Duplicate create
+
+includes:
+  - !include ../global/common.yaml
+
+stages:
+  - *create_product_901
+
+  - name: Create product [ 901 ] (again)
+    request:
+      url: "{service.base_url}/products"
+      method: POST
+      headers:
+        content-type: application/json
+      json:
+        id: -901
+        barcode: "0000000901"
+        brand: "Test brand"
+        name: "Test name"
+        type: "Test type"
+        images: "http://img"
+    response:
+      status_code: 409
+
+  - *delete_product_901
+
+---
+
+test_name: Bulk create
+
+includes:
+  - !include ../global/common.yaml
+
+stages:
+  - &create_products_901_902
+    name: Create products [ 901, 902 ]
+    request:
+      url: "{service.base_url}/products/bulk"
+      method: POST
+      headers:
+        content-type: application/json
+      json:
+        - id: -901
+          barcode: "0000000901"
+          brand: "Test brand"
+          name: "Test name"
+          type: "Test type"
+          images: "http://img"
+        - id: -902
+          barcode: "0000000902"
+          brand: "Test brand"
+          name: "Test name"
+          type: "Test type"
+          images: "http://img"
+    response:
+      status_code: 201
+
+  - *get_product_901
+
+  - name: Get product [ 902 ]
+    request:
+      url: "{service.base_url}/products/-902"
+      method: GET
+    response:
+      status_code: 200
+      body:
+        id: -902
+
+  - *delete_product_901
+
+  - &delete_product_902
+    name: Delete product [ 902 ]
+    request:
+      url: "{service.base_url}/products/-902"
+      method: DELETE
+    response:
+      status_code: 200
+
+#---
+#
+#test_name: List all
+#
+#includes:
+#  - !include ../global/common.yaml
+#
+#strict: False
+#stages:
+#  - *create_products_901_902
+#
+#  - name: Get created products [ 901, 902 ]
+#    request:
+#      url: "{service.base_url}/products"
+#      method: GET
+#    response:
+#      status_code: 200
+#      body:
+#        - id: 901
+#        - id: 902
+#
+#  - *delete_product_901
+#  - *delete_product_902
