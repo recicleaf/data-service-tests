@@ -1,0 +1,7 @@
+---
+name: Common values
+description: Common values
+
+variables:
+  service:
+    base_url: http://localhost:8080

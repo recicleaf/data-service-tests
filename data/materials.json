@@ -1,0 +1,558 @@
+[
+  {
+    "id": 1,
+    "name": "Polyethylene terephthalate",
+    "abbreviations": [
+      "PETE",
+      "PET"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Symbol_Resin_Code_1.svg/50px-Symbol_Resin_Code_1.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_Resin_Code_1_PETE.svg/50px-Symbol_Resin_Code_1_PETE.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Symbol_Resin_Code_01_PET.svg/50px-Symbol_Resin_Code_01_PET.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 2,
+    "name": "High-density polyethylene",
+    "abbreviations": [
+      "HDPE",
+      "PE-HD"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Symbol_Resin_Code_2.svg/50px-Symbol_Resin_Code_2.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Symbol_Resin_Code_2_HDPE.svg/50px-Symbol_Resin_Code_2_HDPE.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Symbol_Resin_Code_02_PE-HD.svg/50px-Symbol_Resin_Code_02_PE-HD.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 3,
+    "name": "Polyvinyl chloride",
+    "abbreviations": [
+      "PVC,V"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Symbol_Resin_Code_3.svg/50px-Symbol_Resin_Code_3.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Symbol_Resin_Code_3_V.svg/50px-Symbol_Resin_Code_3_V.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Symbol_Resin_Code_03_PVC.svg/50px-Symbol_Resin_Code_03_PVC.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 4,
+    "name": "Low-density polyethylene",
+    "abbreviations": [
+      "LDPE","PE-LD"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Symbol_Resin_Code_4.svg/50px-Symbol_Resin_Code_4.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Symbol_Resin_Code_4_LDPE.svg/50px-Symbol_Resin_Code_4_LDPE.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Symbol_Resin_Code_04_PE-LD.svg/50px-Symbol_Resin_Code_04_PE-LD.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 5,
+    "name": "Polypropylene",
+    "abbreviations": [
+      "PP"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Symbol_Resin_Code_5.svg/50px-Symbol_Resin_Code_5.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Symbol_Resin_Code_5_PP.svg/50px-Symbol_Resin_Code_5_PP.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Symbol_Resin_Code_05_PP.svg/50px-Symbol_Resin_Code_05_PP.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 6,
+    "name": "Polystyrene",
+    "abbreviations": [
+      "PS"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Symbol_Resin_Code_6.svg/50px-Symbol_Resin_Code_6.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Symbol_Resin_Code_6_PS.svg/50px-Symbol_Resin_Code_6_PS.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Symbol_Resin_Code_06_PS.svg/50px-Symbol_Resin_Code_06_PS.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 7,
+    "name": "Other plastics",
+    "abbreviations": [
+      "OTHER","O"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Symbol_Resin_Code_7.svg/50px-Symbol_Resin_Code_7.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Symbol_Resin_Code_7_OTHER.svg/50px-Symbol_Resin_Code_7_OTHER.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Symbol_Resin_Code_07_O.svg/50px-Symbol_Resin_Code_07_O.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 501,
+    "name": "Acrylonitrile butadiene styrene",
+    "abbreviations": [
+      "ABS"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Plastic-recyc-abs.svg/200px-Plastic-recyc-abs.svg.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 502,
+    "name": "Polyamide",
+    "abbreviations": [
+      "PA"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Polyamide_Resin_Code.tiff/lossless-page1-177px-Polyamide_Resin_Code.tiff.png"
+    ],
+    "type": "PLASTIC"
+  },
+  {
+    "id": 8,
+    "name": "Lead-acid battery",
+    "abbreviations": [
+      "Lead"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Recycle-8.png/50px-Recycle-8.png"
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 9,
+    "name": "Alkaline battery",
+    "abbreviations": [
+      "Alkaline"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Recycle-9.png/50px-Recycle-9.png"
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 10,
+    "name": "Nickel-cadmium battery",
+    "abbreviations": [
+      "NiCD"
+    ],
+    "images": [
+      ""
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 11,
+    "name": "Nickel-metal hydride battery",
+    "abbreviations": [
+      "NiMH"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Recyc-11.svg/50px-Recyc-11.svg.png"
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 12,
+    "name": "Lithium battery",
+    "abbreviations": [
+      "Li"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Recycle-12.png/50px-Recycle-12.png"
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 13,
+    "name": "Silver-oxide battery",
+    "abbreviations": [
+      "SO(Z)"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Recycle-13.png/50px-Recycle-13.png"
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 14,
+    "name": "Zinc-carbon battery",
+    "abbreviations": [
+      "CZ"
+    ],
+    "images": [
+      ""
+    ],
+    "type": "BATERY"
+  },
+  {
+    "id": 20,
+    "name": "Corrugated fiberboard",
+    "abbreviations": [
+      "PAP"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Recycling-Code-20.svg/50px-Recycling-Code-20.svg.png"
+    ],
+    "type": "PAPER"
+  },
+  {
+    "id": 21,
+    "name": "Non-corrugated fiberboard (Paperboard)",
+    "abbreviations": [
+      "PAP"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Recycling-Code-21.svg/50px-Recycling-Code-21.svg.png"
+    ],
+    "type": "PAPER"
+  },
+  {
+    "id": 22,
+    "name": "Paper",
+    "abbreviations": [
+      "PAP"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Recycling-Code-22.svg/50px-Recycling-Code-22.svg.png"
+    ],
+    "type": "PAPER"
+  },
+  {
+    "id": 40,
+    "name": "Steel",
+    "abbreviations": [
+      "FE"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Recycling-Code-40.svg/50px-Recycling-Code-40.svg.png"
+    ],
+    "type": "METAL"
+  },
+  {
+    "id": 41,
+    "name": "Aluminium",
+    "abbreviations": [
+      "ALU"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/41_ALU_Recycling_Code.svg/50px-41_ALU_Recycling_Code.svg.png",
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/CEN_recycling_aluminium.svg/50px-CEN_recycling_aluminium.svg.png"
+    ],
+    "type": "METAL"
+  },
+  {
+    "id": 50,
+    "name": "Wood",
+    "abbreviations": [
+      "FOR"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Recycling-Code-50.svg/50px-Recycling-Code-50.svg.png"
+    ],
+    "type": "BIOMATER"
+  },
+  {
+    "id": 51,
+    "name": "Cork",
+    "abbreviations": [
+      "FOR"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Recycling-Code-51.svg/50px-Recycling-Code-51.svg.png"
+    ],
+    "type": "BIOMATER"
+  },
+  {
+    "id": 60,
+    "name": "Cotton",
+    "abbreviations": [
+      "COT"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Recycling-Code-60.svg/50px-Recycling-Code-60.svg.png"
+    ],
+    "type": "BIOMATER"
+  },
+  {
+    "id": 61,
+    "name": "Jute",
+    "abbreviations": [
+      "TEX"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Recycling-Code-61.svg/50px-Recycling-Code-61.svg.png"
+    ],
+    "type": "BIOMATER"
+  },
+  {
+    "id": 62,
+    "name": "Other Textiles",
+    "abbreviations": [
+      "TEX"
+    ],
+    "images": [
+      ""
+    ],
+    "type": "BIOMATER"
+  },
+  {
+    "id": 70,
+    "name": "Clear Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Recycling-Code-70.svg/50px-Recycling-Code-70.svg.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 71,
+    "name": "Green Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Recycling-Code-71.svg/50px-Recycling-Code-71.svg.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 72,
+    "name": "Brown Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Recycling-Code-72.svg/50px-Recycling-Code-72.svg.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 73,
+    "name": "Dark Sort Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/No73Dark_Sort_Glass_Recycling_Logo.png/50px-No73Dark_Sort_Glass_Recycling_Logo.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 74,
+    "name": "Light Sort Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/No74_GLS_Light_Sort_Glass_Recycling_Logo.png/50px-No74_GLS_Light_Sort_Glass_Recycling_Logo.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 75,
+    "name": "Light Leaded Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No75_GLS_Light_Leaded_Glass_Recycling_Logo.png/50px-No75_GLS_Light_Leaded_Glass_Recycling_Logo.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 76,
+    "name": "Leaded Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Recycle-76.png/50px-Recycle-76.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 77,
+    "name": "Copper Mixed/Copper Backed Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Recycle-77.png/50px-Recycle-77.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 78,
+    "name": "Silver Mixed/Silver Backed Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Recycle-78.png/50px-Recycle-78.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 79,
+    "name": "Gold Mixed/Gold Backed Glass",
+    "abbreviations": [
+      "GL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Recycling-Code-79.svg/50px-Recycling-Code-79.svg.png"
+    ],
+    "type": "GLASS"
+  },
+  {
+    "id": 81,
+    "name": "Paper and Plastic",
+    "abbreviations": [
+      "PapPet"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Recycling-Code-81.svg/50px-Recycling-Code-81.svg.png"
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 82,
+    "name": "Paper and Fibreboard/Aluminium",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 83,
+    "name": "Paper and Fibreboard/Tinplate",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 84,
+    "name": "Paper Cardboard/Plastic/Aluminium",
+    "abbreviations": [
+      "C/PAP","PapAl"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Recycling-Code-84.svg/50px-Recycling-Code-84.svg.png"
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 85,
+    "name": "Paper and Fibreboard/Plastic/Aluminium/Tinplate",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 87,
+    "name": "Biodegradable plastic",
+    "abbreviations": [
+      "CSL"
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/No87_Card_Stock_Laminate_Recycling_Logo.png/50px-No87_Card_Stock_Laminate_Recycling_Logo.png"
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 90,
+    "name": "Plastics/Aluminium",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Recycling-Code-90.PNG/50px-Recycling-Code-90.PNG"
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 91,
+    "name": "Plastic/Tinplate",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Recycle-91.png/50px-Recycle-91.png"
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 92,
+    "name": "Plastic/Miscellaneous metals",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 95,
+    "name": "Glass/Plastic",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 96,
+    "name": "Glass/Aluminium",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 97,
+    "name": "Glass/Tinplate",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  },
+  {
+    "id": 98,
+    "name": "Glass/Miscellaneous metals",
+    "abbreviations": [
+      ""
+    ],
+    "images": [
+      ""
+    ],
+    "type": "COMPOSITE"
+  }
+]

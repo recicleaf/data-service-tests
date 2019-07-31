@@ -1,0 +1,6 @@
+execute test:
+PYTHONPATH=$PYTHONPATH:. py.test -v --tavern-beta-new-traceback --pspec ./
+
+requires:
+pip install tavern
+pip install pytest-pspec
