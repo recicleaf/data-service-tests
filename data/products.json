@@ -9,15 +9,24 @@
     "components": [
       {
         "id": 1,
-        "name": "Pot"
+        "name": "Pot",
+        "materialIds": [
+          1
+        ]
       },
       {
         "id": 2,
-        "name": "Lid"
+        "name": "Lid",
+        "materialIds": [
+          1
+        ]
       },
       {
         "id": 3,
-        "name": "Foil"
+        "name": "Foil",
+        "materialIds": [
+          41
+        ]
       }
     ]
   }
