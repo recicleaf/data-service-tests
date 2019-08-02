@@ -7,7 +7,7 @@
 #stages:
 #  - name: Create product materials
 #    request:
-#      url: "{service.base_url}/product/bulk"
+#      url: "{service.base_url}/products/bulk"
 #      method: POST
 #      headers:
 #        content-type: application/json

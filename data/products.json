@@ -5,6 +5,20 @@
     "brand": "Onken",
     "name": "0% Fat Vanilla",
     "type": "yogurt",
-    "image": "https://lh3.googleusercontent.com/p_6KSsXrbuHWhAZTexha0l6Xrltl73D4kVbicaDUTEfhuvzUZmoROJZCb9J7OBK0dExDrCkgqXdUAfUW2NEv3McEX197I_w1B84QMbxp2a-8_pdyb19B-NHR31UbzYnxRp--E_RNFrI=w1021-h1361-no"
+    "image": "https://lh3.googleusercontent.com/p_6KSsXrbuHWhAZTexha0l6Xrltl73D4kVbicaDUTEfhuvzUZmoROJZCb9J7OBK0dExDrCkgqXdUAfUW2NEv3McEX197I_w1B84QMbxp2a-8_pdyb19B-NHR31UbzYnxRp--E_RNFrI=w1021-h1361-no",
+    "components": [
+      {
+        "id": 1,
+        "name": "Pot"
+      },
+      {
+        "id": 2,
+        "name": "Lid"
+      },
+      {
+        "id": 3,
+        "name": "Foil"
+      }
+    ]
   }
 ]
